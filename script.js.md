@@ -27,13 +27,13 @@ function sendWhatsApp(event) {
     const service = document.getElementById("service").value;
     const message = document.getElementById("message").value;
 
-    const whatsappNumber = "919876543210";
+    const whatsappNumber = "917425966529";
 
     const text =
-        `Hello Arun Wooden Furniture & Works,%0A%0A` +
-        `Name: ${name}%0A` +
-        `Phone: ${phone}%0A` +
-        `Service: ${service}%0A%0A` +
+        `Hello krishna Wooden Furniture & Works,%0A%0A` +
+        `Name: ${subhash kumar}%0A` +
+        `Phone: ${7425966529}%0A` +
+        `Service: ${pimpri chinchwad pune maharastra}%0A%0A` +
         `Requirement:%0A${message}`;
 
     const url = `https://wa.me/${whatsappNumber}?text=${text}`;
